@@ -1,0 +1,42 @@
+{
+    "requestMessage": {
+        "header": {
+            "channel": {
+                "id": "NBOT04-C001",
+                "name": "MOBILE_FIRST"
+            },
+            "consumer": {
+                "address": {
+                    "deviceAddress": "172.31.17.207",
+                    "networkAddress": "10.5.1.153"
+                },
+                "geoPosition": {
+                    "coords": {},
+                    "timestamp": ""
+                },
+                "id": "3999999999",
+                "name": "'KW03-C001'"
+            },
+            "container": {
+                "id": "KW03-C001",
+                "name": "MOBILE_FIRST"
+            },
+            "destination": {
+                "serviceName": "ExampleService",
+                "serviceOperation": "test",
+                "serviceRegion": "C001",
+                "serviceVersion": "1.0.0"
+            },
+            "messageID": "29751518464541046",
+            "requestDate": "2018-02-12 14:42:21"
+        },
+        "body": {
+            "sendMoneyRQ": {
+                "phoneNumberOrigin": "3206389534",
+                "phoneNumberDestination": "3012146840",
+                "value": "10",
+                "description": "Enviar Dinero NEQUI-3012146840"
+            }
+        }
+    }
+}
